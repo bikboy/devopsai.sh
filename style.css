@@ -183,3 +183,75 @@ a:hover { text-decoration: underline; }
   .section { padding: 40px 0; }
   .section h2 { font-size: 22px; }
 }
+
+/* ---------- Team section ---------- */
+.team-card {
+  max-width: 640px;
+}
+
+.team-head {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 14px;
+}
+
+.team-head .avatar {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid var(--border);
+  flex-shrink: 0;
+}
+
+.team-head h3 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.team-head .role {
+  margin: 2px 0 0;
+  font-size: 13px;
+  color: var(--accent);
+  font-weight: 500;
+}
+
+.team-bio {
+  color: var(--fg-dim);
+  font-size: 14px;
+  margin: 0 0 14px;
+}
+
+.team-skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 14px;
+}
+
+.team-skills .tag {
+  display: inline-block;
+  padding: 3px 10px;
+  border-radius: 999px;
+  background: rgba(56, 189, 248, 0.12);
+  color: var(--accent);
+  font-size: 12px;
+  font-weight: 500;
+  border: 1px solid rgba(56, 189, 248, 0.2);
+}
+
+.team-link {
+  display: inline-block;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--accent);
+}
+
+.team-hiring {
+  margin-top: 24px;
+  text-align: center;
+  color: var(--fg-dim);
+  font-size: 14px;
+  font-style: italic;
+}
