@@ -198,8 +198,8 @@ a:hover { text-decoration: underline; }
 }
 
 .team-head .avatar {
-  width: 40px;
-  height: 40px;
+  width: 32px;
+  height: 32px;
   border-radius: 50%;
   object-fit: cover;
   border: 1px solid var(--border);
@@ -208,7 +208,7 @@ a:hover { text-decoration: underline; }
 
 .team-head h3 {
   margin: 0;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 600;
   display: inline;
 }
