@@ -24,7 +24,7 @@ jobs:
         run: |
           wrangler pages deploy . \
             --project-name devopsai-sh \
-            --branch main \
+            --branch master \
             --commit-dirty=true
         env:
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
