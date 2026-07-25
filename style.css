@@ -186,72 +186,94 @@ a:hover { text-decoration: underline; }
 
 /* ---------- Team section ---------- */
 .team-card {
-  max-width: 640px;
+  max-width: 560px;
+  padding: 20px 22px;
 }
 
 .team-head {
   display: flex;
   align-items: center;
-  gap: 16px;
-  margin-bottom: 14px;
+  gap: 12px;
+  margin-bottom: 10px;
 }
 
 .team-head .avatar {
-  width: 64px;
-  height: 64px;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
   object-fit: cover;
-  border: 2px solid var(--border);
+  border: 1px solid var(--border);
   flex-shrink: 0;
 }
 
 .team-head h3 {
   margin: 0;
-  font-size: 18px;
+  font-size: 16px;
+  font-weight: 600;
+  display: inline;
 }
 
 .team-head .role {
-  margin: 2px 0 0;
-  font-size: 13px;
-  color: var(--accent);
-  font-weight: 500;
+  margin: 0 0 0 8px;
+  font-size: 12px;
+  color: var(--fg-dim);
+  font-weight: 400;
+}
+
+.team-head .role::before {
+  content: "·";
+  margin-right: 8px;
+  color: var(--fg-dim);
 }
 
 .team-bio {
   color: var(--fg-dim);
-  font-size: 14px;
-  margin: 0 0 14px;
+  font-size: 13px;
+  line-height: 1.5;
+  margin: 0 0 12px;
 }
 
 .team-skills {
   display: flex;
   flex-wrap: wrap;
-  gap: 6px;
-  margin-bottom: 14px;
+  gap: 4px;
+  margin-bottom: 12px;
 }
 
 .team-skills .tag {
   display: inline-block;
-  padding: 3px 10px;
-  border-radius: 999px;
-  background: rgba(56, 189, 248, 0.12);
-  color: var(--accent);
-  font-size: 12px;
+  padding: 2px 8px;
+  border-radius: 4px;
+  background: rgba(255, 255, 255, 0.04);
+  color: var(--fg-dim);
+  font-size: 11px;
   font-weight: 500;
-  border: 1px solid rgba(56, 189, 248, 0.2);
+  border: 1px solid var(--border);
+}
+
+.team-skills .tag:hover {
+  color: var(--accent);
+  border-color: rgba(56, 189, 248, 0.3);
 }
 
 .team-link {
   display: inline-block;
-  font-size: 13px;
-  font-weight: 600;
+  font-size: 12px;
+  font-weight: 500;
   color: var(--accent);
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.15s ease;
+}
+
+.team-link:hover {
+  text-decoration: none;
+  border-bottom-color: var(--accent);
 }
 
 .team-hiring {
-  margin-top: 24px;
+  margin-top: 20px;
   text-align: center;
   color: var(--fg-dim);
-  font-size: 14px;
+  font-size: 13px;
   font-style: italic;
 }
