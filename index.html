@@ -3,7 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>DevOps.AI — Cloud infrastructure that runs itself</title>
+  <title>DevOps.AI — AI platform engineering &amp; LLMOps</title>
+  <meta name="description" content="DevOps.AI builds and operates production AI platforms — LLM inference, RAG, agent runtimes and evaluation — on infrastructure that scales.">
   <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚙️</text></svg>">
   <link rel="stylesheet" href="style.css">
 </head>
@@ -11,9 +12,10 @@
   <main class="container">
     <header class="hero">
       <div class="logo">⚙️ DevOps.AI</div>
-      <h1>Cloud infrastructure<br>that runs itself.</h1>
+      <h1>AI platforms that<br>actually ship.</h1>
       <p class="tagline">
-        We design, build, and operate DevOps platforms so your engineers can ship — not babysit pipelines.
+        We design, build, and operate LLMOps and AI platform engineering — inference, RAG,
+        agent runtimes, and evaluation — so your team ships AI products instead of debugging GPU drivers.
       </p>
       <div class="cta">
         <a href="mailto:tim@devopsai.sh" class="btn primary">Get in touch</a>
@@ -25,34 +27,34 @@
       <h2>What we do</h2>
       <div class="grid">
         <article class="card">
-          <div class="icon">☁️</div>
-          <h3>Cloud architecture</h3>
-          <p>AWS, GCP, Azure — landing zones, multi-account setups, cost guardrails. Boring infra that scales.</p>
+          <div class="icon">🧠</div>
+          <h3>LLMOps</h3>
+          <p>Model serving, routing, and versioning. vLLM, llama.cpp, SGLang — with caching, quantization, and cost controls that survive real traffic.</p>
         </article>
         <article class="card">
-          <div class="icon">⎈</div>
-          <h3>Kubernetes platforms</h3>
-          <p>Self-hosted or managed, GitOps with ArgoCD/Flux, service mesh, autoscaling. Production-grade defaults.</p>
+          <div class="icon">🏗️</div>
+          <h3>AI platform engineering</h3>
+          <p>The internal platform your AI teams build on: GPU scheduling, multi-tenant namespaces, quotas, and self-serve deploys.</p>
         </article>
         <article class="card">
-          <div class="icon">🔁</div>
-          <h3>CI/CD pipelines</h3>
-          <p>GitHub Actions, GitLab CI, Jenkins, Drone. From commit to deploy in minutes — with proper tests, scans, and rollback.</p>
-        </article>
-        <article class="card">
-          <div class="icon">📈</div>
-          <h3>Observability</h3>
-          <p>Prometheus, Grafana, Loki, Tempo. SLOs, alerts that actually fire, dashboards you can read at 3am.</p>
+          <div class="icon">📚</div>
+          <h3>RAG &amp; retrieval</h3>
+          <p>Ingestion, chunking, embeddings, vector search, reranking. Grounded answers with citations — evaluated, not vibes.</p>
         </article>
         <article class="card">
           <div class="icon">🤖</div>
-          <h3>AI agent ops</h3>
-          <p>LLM inference infra, RAG pipelines, autonomous agents on your data. We deploy the same stack we run ourselves.</p>
+          <h3>Agent runtimes</h3>
+          <p>Tool-calling agents in production: sandboxed execution, state, memory, retries, and human-in-the-loop gates.</p>
+        </article>
+        <article class="card">
+          <div class="icon">📊</div>
+          <h3>Evaluation &amp; observability</h3>
+          <p>Golden sets, regression suites, token and latency tracing, drift alerts. Know whether your model change helped or hurt.</p>
         </article>
         <article class="card">
           <div class="icon">🛠️</div>
-          <h3>IaC &amp; automation</h3>
-          <p>Terraform, Pulumi, Ansible, Crossplane. Your infra is code, reviewable, reproducible, audited.</p>
+          <h3>Cloud &amp; GPU infrastructure</h3>
+          <p>Kubernetes GPU clusters on AWS, GCP, or bare metal. IaC with Terraform and Pulumi — reproducible and audited.</p>
         </article>
       </div>
     </section>
@@ -60,9 +62,9 @@
     <section class="section">
       <h2>How we work</h2>
       <ol class="steps">
-        <li><strong>Audit</strong> — we look at what you have, where it hurts, what to keep.</li>
+        <li><strong>Audit</strong> — what you run today, where it breaks, what your token bill actually says.</li>
         <li><strong>Plan</strong> — concrete deliverables, fixed scope, real timelines.</li>
-        <li><strong>Build</strong> — code, infra, runbooks. Reviewed. Documented.</li>
+        <li><strong>Build</strong> — platform, pipelines, evals. Reviewed. Documented.</li>
         <li><strong>Hand over</strong> — your team owns it. We stay on call if you want.</li>
       </ol>
     </section>
@@ -74,37 +76,37 @@
           <div class="team-head">
             <img class="avatar" src="img/avatar.jpg" alt="Timur Bikbaev">
             <h3>Timur Bikbaev</h3>
-            <p class="role">Founder · DevOps Engineer</p>
+            <p class="role">Founder · AI Platform Engineer</p>
           </div>
-          <p class="team-bio">15+ years building high-load infrastructure — mobile, fintech, telco, AI. AWS, GCP, Kubernetes, Terraform. Runs two AI agents on a self-hosted LLM stack so he knows what production AI actually costs in headcount.</p>
+          <p class="team-bio">15+ years building high-load infrastructure — mobile, fintech, telco, AI. Runs a self-hosted LLM stack with production agents on it, so he knows what LLMOps costs in GPUs and headcount.</p>
           <div class="team-skills">
-            <span class="tag">AWS</span>
-            <span class="tag">GCP</span>
+            <span class="tag">LLMOps</span>
+            <span class="tag">vLLM</span>
+            <span class="tag">llama.cpp</span>
+            <span class="tag">RAG</span>
+            <span class="tag">AI Agents</span>
             <span class="tag">Kubernetes</span>
+            <span class="tag">GPU Infra</span>
             <span class="tag">Terraform</span>
             <span class="tag">Pulumi</span>
-            <span class="tag">GitHub Actions</span>
-            <span class="tag">GitLab CI</span>
-            <span class="tag">ArgoCD</span>
-            <span class="tag">Prometheus</span>
-            <span class="tag">Helm</span>
             <span class="tag">Python</span>
             <span class="tag">Rust</span>
-            <span class="tag">LLMs</span>
-            <span class="tag">AI Agents</span>
+            <span class="tag">AWS</span>
+            <span class="tag">GCP</span>
+            <span class="tag">Prometheus</span>
           </div>
           <a class="team-link" href="https://tima.space" target="_blank" rel="noopener">Full CV →</a>
         </article>
       </div>
-      <p class="team-hiring">Growing the team — get in touch if you ship DevOps in production and want to work async from anywhere in EU.</p>
+      <p class="team-hiring">Growing the team — get in touch if you run AI workloads in production and want to work async from anywhere in EU.</p>
     </section>
 
     <section class="section">
       <h2>Who we are</h2>
       <p>
-        DevOps.AI s.r.o. is a Bratislava-based DevOps consultancy. We've shipped platforms
-        for mobile apps, fintech, telcos, and AI products — across AWS, GCP, and bare metal.
-        We also run our own agents (<a href="https://tima.space" target="_blank" rel="noopener">OpenClaw &amp; Hermes</a>) on
+        DevOps.AI s.r.o. is a Bratislava-based AI platform engineering company. We build LLMOps
+        platforms and production AI systems for companies across Europe — on AWS, GCP, and bare metal.
+        We run our own agents (<a href="https://tima.space" target="_blank" rel="noopener">OpenClaw &amp; Hermes</a>) on
         a self-hosted LLM stack, so we know what "production AI" actually takes.
       </p>
     </section>
